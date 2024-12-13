@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Cairo:200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+* {
+  box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background: -webkit-linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+nav {
+  width: 100%;
+  /* border: 1px black solid; */
+  padding: 5px 15px;
+  background-color: white;
+}
+#weather-container {
+  /* border: 1px black solid; */
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+#weather-icon {
+  /* border: 1px blue solid; */
+  display: flex;
+  align-items: start;
+}
+img {
+  width: 150px;
+}
+h1 {
+  font-size: 2.9rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+  font-size: 1.85rem;
+}
+/* #weather-details {
+  border: 1px red solid;
+} */
+input {
+  all: unset;
+  padding: 8px;
+  border-bottom: 3px blueviolet solid;
+  /* border-left: 1px blueviolet solid;
+  border-top: 1px blueviolet solid;
+  border-right: 1px blueviolet solid; */
+  font-size: 1.05em;
+  font-weight: bold;
+  margin-right: 10px;
+  color: blueviolet;
+}
+button {
+  all: unset;
+  background-color: blueviolet;
+  border: 3px blueviolet solid;
+  padding: 8px;
+  color: white;
+}

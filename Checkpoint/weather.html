@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="weather.css" />
+
+    <title>UMBRELLA</title>
+  </head>
+  <body>
+    <nav>
+      <h3>UMBRELLA</h3>
+    </nav>
+    <div id="weather-container">
+      <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="" id="img" />
+      <div id="weather-details">
+        <h1 id="city-name">--</h1>
+        <h2 id="temp">-- °c</h2>
+        <h3 id="description">---</h3>
+      </div>
+    </div>
+    <form>
+      <input
+        type="text"
+        name="city"
+        id="city-data"
+        placeholder="search city name"
+      />
+      <button type="button" id="btn">Search</button>
+    </form>
+    <script src="./weather.js"></script>
+  </body>
+</html>
